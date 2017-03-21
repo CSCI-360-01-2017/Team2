@@ -19,7 +19,7 @@ public class Radio {
 	public void setFreq(double freq) {
 		if (freq <= 107.9 && freq >= 88.1){
 			DecimalFormat format = new DecimalFormat("#.0");
-	        this.freq = Double.parseDouble(format.format(freq));
+                    this.freq = Double.parseDouble(format.format(freq));
 	    }            
 	}
 	
